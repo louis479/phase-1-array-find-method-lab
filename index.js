@@ -2,7 +2,7 @@
 function superbowlWin(record) {
     const winRecord = record.find(entry => entry.result === "W");
     return winRecord ? winRecord.year : undefined;
-  }
+}
   
   // Sample records for the Denver Broncos Super Bowl results
   const record = [
